@@ -1,9 +1,17 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+        <header>
+            <nav>
+                <router-link to="/">Home</router-link> |
+                <router-link to="/about">About</router-link> |
+                <router-link to="/news">news</router-link>|
+                <router-link to="/product">product</router-link>
+            </nav>
+        </header>
+        <router-view/>
+    <footer>
+        <a href="#">頁尾</a>
+    </footer>
+
 </template>
 
 <style lang="scss">
@@ -15,6 +23,13 @@
   color: #2c3e50;
 }
 
+header {
+    background-color: #ccc;
+}
+footer{
+    height: 10rem;
+    background-color: #ccc;
+}
 nav {
   padding: 30px;
 
