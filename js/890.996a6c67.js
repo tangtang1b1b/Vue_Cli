@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkfirst_project"]=self["webpackChunkfirst_project"]||[]).push([[890],{890:function(r,t,n){n.r(t),n.d(t,{default:function(){return l}});var e=n(252);const u={class:"about"},c=(0,e._)("h1",null,"產品",-1),s=[c];function a(r,t){return(0,e.wg)(),(0,e.iD)("div",u,s)}var f=n(744);const i={},o=(0,f.Z)(i,[["render",a]]);var l=o}}]);
+//# sourceMappingURL=890.996a6c67.js.map
